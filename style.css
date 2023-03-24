@@ -122,6 +122,15 @@ body {
     font-size: 30px;
     margin: 20px 20px;
 }
+.container-1{
+    margin-left: 230px;
+    /* background-color: orange; */
+    align-items: center;
+    margin-right: 50px;
+    width: 800px;
+    padding-left: 40px;
+        
+}
 
 .icon:hover{
     background-color: #00d084;
@@ -132,12 +141,17 @@ body {
 .features{
     margin-top: 50px;
     background-image: url(./images/mountain.jpg);
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
+}
+#guy{
+    padding-right: 100px;
+    margin-left: 1px;
+    margin-top: 29px;
 }
 
 .features .lines {
@@ -155,6 +169,7 @@ body {
     color: white;
     text-transform: uppercase;
     margin-bottom: 30px;
+    padding-top: 20px;
 }
 
 .features p{
@@ -181,7 +196,7 @@ body {
     color:white;
     font-size: 30px;
     margin: 20px 20px;
-    background-color: #00d084;
+    /* background-color: #00d084; */
     padding-left: 150px;
     border: 180px;
     height: 40px;
@@ -189,7 +204,7 @@ body {
 }
 
 .features i:hover{
-    background-color: #26f7aa;
+    /* background-color: #26f7aa; */
     color:#fff;
 }
 
@@ -209,7 +224,7 @@ body {
     margin: auto;
     width: 70px;
     position: relative;
-    border-top: 4px solid #00d084;
+    /* border-top: 4px solid #00d084; */
     margin-top: 15px
 }
 
@@ -513,7 +528,7 @@ body {
 
 .contact{
     margin-top: 80px;
-    height: 70vh;
+    height: 80vh;
     background-color: darkslategray ;
     color: #fff;
     display: flex;
@@ -636,8 +651,9 @@ footer{
     display: flex;
     list-style: none;
     gap: 25px;
-    font-size: 20px;
-    padding-top: 65px;
+    font-size: 15px;
+    padding-top: 100px;
+    margin-left: 200px;
  }
 
 
@@ -648,8 +664,11 @@ footer ul li:hover{
 footer p{
     float: right;
     margin: 10px 10px;
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: -40px;
+    margin-right: 200px;
 } 
+
 
 @media (max-width:786px){
     body{
@@ -821,9 +840,9 @@ footer li{
 footer p{
     font-size: 15px;
 }
-}
+} 
 
-@media (max-width:576px){
+ @media (max-width:576px){
     body{
         width: 100%;
     }
